@@ -35,7 +35,9 @@ namespace TempName
 			{
 				Console.WriteLine(file);
 
-				if (file.EndsWith(".lnk") || file.EndsWith(".url") || file.EndsWith(".pif") || file.EndsWith(".scf") || file.EndsWith(".shs") || file.EndsWith(".shb") || file.EndsWith(".xnk"))
+				if (file.EndsWith(".lnk") || file.EndsWith(".url") || file.EndsWith(".pif") || 
+				    file.EndsWith(".scf") || file.EndsWith(".shs") || file.EndsWith(".shb") || 
+				    file.EndsWith(".xnk"))
 					shortcuts.Add(file);
 				if (file.EndsWith(".exe"))
 					executables.Add(file);
